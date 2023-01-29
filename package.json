@@ -1,7 +1,7 @@
 {
-  "name": "module-13-challenge-orm",
+  "name": "orme-commerceapp",
   "version": "1.0.0",
-  "description": "",
+  "description": "Challenge 13 is to build the back end for an e-commerce site by modifying starter code. It will have a working Express.js API to use Sequelize to interact with a MySQL database.",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@work.github.com:coding-boot-camp/module-13-challenge-orm.git"
+    "url": "git+https://github.com/nigelarue/ORME-CommerceApp.git"
   },
   "keywords": [],
   "author": "",
@@ -19,10 +19,14 @@
   "devDependencies": {
     "nodemon": "^2.0.3"
   },
+  "bugs": {
+    "url": "https://github.com/nigelarue/ORME-CommerceApp/issues"
+  },
+  "homepage": "https://github.com/nigelarue/ORME-CommerceApp#readme",
   "dependencies": {
-    "dotenv": "^8.2.0",
-    "express": "^4.17.1",
-    "mysql2": "^2.1.0",
-    "sequelize": "^5.21.7"
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mysql2": "^3.0.1",
+    "sequelize": "^6.28.0"
   }
 }
