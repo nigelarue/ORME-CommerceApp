@@ -15,21 +15,25 @@ SO THAT my company can compete with other e-commerce companies
 In order to start please follow these steps:
 
 Open the terminal command line.
-Run 'npm i' to install necessary script dependencies and packages.
+Run '`npm i`' to install necessary script dependencies and packages.
 Source DATABASE schema in the command line by first starting MySQL after entering:
-  mysql -u root -p
+  `mysql -u root -p`
 You can set up a password in the .env file if you so choose, but for the sake of making this app work, leave it blank.
 Once MySQL is running, enter into the command line:
-  source db/schema.sql
+  `source db/schema.sql`
 This will link and start your database.
 Exit MySQL afterwards by entering: 
-  exit
+  `exit`
 Next, if there are any seeds to source, you will run the following command:
-  node seeds/index.js
+  `node seeds/index.js`
 Now you are ready to start the app.
 To start the app in the command line, enter:
-  node server.js
+  `node server.js`
 ```
+
+## Video Walkthrough Link
+Please follow the link to view the walkthrough video:
+https://drive.google.com/file/d/1HvenNJgciWdXA5WCWbeGyxBWjifTw8pL/view 
 
 ## Expectations
 
